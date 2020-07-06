@@ -1,0 +1,212 @@
+body {
+    background: #BBDEFB;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #81D4FA;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+.extraWeight{
+	font-weight: 700;
+}
+.imageControl{
+	width: 150px;
+	height: 150px;
+	border-radius: 55px;
+}
+
+.skill {
+  background-color: white;
+  color: #212121;
+  font-size: 3rem;
+  opacity: .8;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+
+  .timeline {
+    left: 0;
+  }
+
+  .timeline-thumbnail {
+    font-size: 3.5vw;
+  }
+
+
+  .timeline:before {
+    width: 2px;
+  }
+  li{
+  	list-style-type: none;
+  }
+  .title-form{
+  	margin-top: 50px;
+  }
+  .contact-form{
+	width: 85%;
+	max-width: 600px;
+	background:#f1f1f1;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-top: 100px;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 10px #000000b3;
+    font-family: "Nunito", sans-serif;
+}
+.contact-form h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+.txtb{
+	border:1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+.textb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtb input,.txtb textarea{
+	width: 100%;
+	border: none;
+	background:none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.contact-form input[type=submit]{
+	height: 30px;
+	color:#ffffff;
+	font-size: 15px;
+	background: #4CB96B;
+	cursor: pointer;
+	border-radius: 25px;
+	border:none;
+	outline: none;
+	margin-right: 10px;
+	width: 20%;
+	font-weight: bold;
+}
+.contact-form input[type=reset]{
+	height: 30px;
+	color:#ffffff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border:none;
+	outline: none;
+	margin-left: 10px;
+	width: 20%;
+	font-weight: bold;
+}
+.contact-section {
+  height: 350px;
+  padding-top: 20px;
+}
+
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 10px;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+}
+.btn-drible {
+    background: #e64786;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-github {
+    background-color: #24292e;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+ 
+.contact-buttons {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.contact-buttons a:hover {
+	color: white;
+}
