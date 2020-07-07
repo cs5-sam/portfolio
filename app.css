@@ -210,3 +210,7 @@ body {
 .contact-buttons a:hover {
 	color: white;
 }
+
+#mypic{
+	box-shadow: 0 0 5px #000000b3;
+}
