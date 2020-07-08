@@ -214,3 +214,7 @@ body {
 #mypic{
 	box-shadow: 0 0 5px #000000b3;
 }
+
+.card{
+    margin: 35px;
+}
