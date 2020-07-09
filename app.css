@@ -221,3 +221,15 @@ body {
 .parallax{
     background-color: #E3F2FD;
 }
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform:scale(1.2);
+}
+.btn-btn:hover{
+    transform:scale(1.2);
+}
