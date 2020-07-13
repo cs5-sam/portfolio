@@ -233,3 +233,9 @@ body {
 .btn-btn:hover{
     transform:scale(1.2);
 }
+footer{
+    background-color: #283E4A;
+}
+.fa-copyright{
+    color: #fff;
+}
