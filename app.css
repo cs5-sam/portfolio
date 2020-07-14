@@ -4,6 +4,7 @@ html{
 body {
     background: #BBDEFB;
     font-family: "Nunito", sans-serif;
+    margin: 0;
 }
 
 .blurb h2 {
@@ -27,6 +28,8 @@ body {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;    
+    overflow: hidden;
+    padding: 0;
 }
 
 #mainNavbar .nav-link {
@@ -185,6 +188,14 @@ body {
 	  border-style: solid;
 	  border-color: #084461;
 }
+.btn-hackerrank {
+    background: #0eec06;
+    border-radius: 10px;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+}
 .btn-drible {
     background: #e64786;
     border-radius: 10px;
@@ -202,7 +213,18 @@ body {
     border-style: solid;
 	  border-color: #084461;
 }
- 
+h3{
+    margin-top: 10px;
+    border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+}
+/* On mouse-over */
+h3:hover {background: #eee;}
+
 .contact-buttons {
   display: block;
   width: 100%;
@@ -213,16 +235,14 @@ body {
 .contact-buttons a:hover {
 	color: white;
 }
-
 #mypic{
 	box-shadow: 0 0 5px #000000b3;
 }
-
 .card{
     margin: 35px;
 }
-.parallax{
-    background-color: #E3F2FD;
+.parallax-project{
+    background-color: #B3E5FC;
 }
 .inner{
     overflow: hidden;
@@ -233,15 +253,46 @@ body {
 .inner:hover img{
     transform:scale(1.2);
 }
+#project-card{
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=1015&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#project-card2{
+    background-image: url("https://images.unsplash.com/photo-1476897017502-219c9169bd6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-project{
+    color: #e3dcdc;
+}
+.card a{
+    color: #212121;
+}
 .btn-btn:hover{
     transform:scale(1.2);
 }
+.jumbotron{
+    margin-top: 50px;
+    background-color: #E3F2FD;
+    color: #212121;
+}
 footer{
     background-color: #283E4A;
-	height: 100px;
+    height: 150px;
 }
 .fa-copyright{
     color: #fff;
+}
+.fa-heart{
+    color: red;
+}
+#last-text{
+    color: #eae6ed;
 }
 
 ::-webkit-scrollbar{
