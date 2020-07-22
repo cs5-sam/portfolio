@@ -2,7 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background: #BBDEFB;
+    /*background: #BBDEFB;*/
+    background-color: #263238;
     font-family: "Nunito", sans-serif;
     margin: 0;
 }
@@ -14,7 +15,7 @@ body {
 }
 
 .blurb p {
-    color: #212121;
+    color: #ffffff;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -121,7 +122,7 @@ body {
 	box-sizing: border-box;
 	border-radius: 8px;
 	text-align: center;
-	box-shadow: 0 0 10px #000000b3;
+	box-shadow: 0 0 10px #64FFDA;
     font-family: "Nunito", sans-serif;
 }
 .contact-form h1{
@@ -236,13 +237,13 @@ h3:hover {background: #eee;}
 	color: white;
 }
 #mypic{
-	box-shadow: 0 0 5px #000000b3;
+	box-shadow: 0 0 5px #ffffff;
 }
 .card{
     margin: 35px;
 }
 .parallax-project{
-    background-color: #B3E5FC;
+    background-color: #37474F;
 }
 .inner{
     overflow: hidden;
