@@ -24,6 +24,11 @@
 
 <body>
 
+    <!--<div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>-->
         
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
@@ -144,7 +149,7 @@
         <h1 class="text-center text-light" id="certificates">Certifications <i class="fa fa-certificate"></i></h1>
         <div class="container">
         <div class="row">
-            <div class="card shadow" style="width: 18rem;">
+            <div class="card" id="mycard" style="width: 18rem;">
                 <div class="inner">
                     <img src="imgs/google30.png" class="card-img-top" alt="30 days of android">
                 </div>
@@ -154,7 +159,7 @@
                 
                 </div>
             </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycard" style="width: 18rem;">
             <div class="inner">
                 <img src="imgs/dcs.png" class="card-img-top" alt="internship at DCS">
             </div>
@@ -164,7 +169,7 @@
             
             </div>
         </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycard" style="width: 18rem;">
             <div class="inner">
                 <img src="imgs/epm.png" class="card-img-top" alt="engg. project management">
             </div>
@@ -174,7 +179,7 @@
             
             </div>
         </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycard" style="width: 18rem;">
             <div class="inner">
                 <img src="imgs/android.png" class="card-img-top" alt="android course">
             </div>
@@ -184,7 +189,7 @@
             
             </div>
         </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycard" style="width: 18rem;">
             <div class="inner">
                 <img src="imgs/javaCCA.png" class="card-img-top" alt="java assessment">
             </div>
@@ -194,7 +199,7 @@
             
             </div>
         </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycard" style="width: 18rem;">
             <div class="inner">
             <img src="imgs/python.png" class="card-img-top" alt="python assessment">
             </div>
@@ -216,7 +221,7 @@
     <h1 class="text-center text-light" id="projects">Projects <i class="fa fa-tasks"></i></h1>
     <div class="container">
     <div class="row">
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycardProject" style="width: 18rem;">
             <div class="card-body"  id="project-card">
               <h5 class="card-title text-white">MicroBlogging App</h5>
               <h6 class="card-subtitle mb-2 text-project">ANDROID</h6>
@@ -225,7 +230,7 @@
               <!--<a href="#" class="card-link">Another link</a>-->
             </div>
           </div>
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" id="mycardProject" style="width: 18rem;">
             <div class="card-body" id="project-card">
               <h5 class="card-title text-white">Online Store App</h5>
               <h6 class="card-subtitle mb-2 text-project">ANDROID</h6>
@@ -234,7 +239,7 @@
               <!--<a href="#" class="card-link">Another link</a>-->
             </div>
           </div>
-          <div class="card shadow" style="width: 18rem;">
+          <div class="card" id="mycardProject" style="width: 18rem;">
             <div class="card-body"  id="project-card">
               <h5 class="card-title text-white">Emergency Support App</h5>
               <h6 class="card-subtitle mb-2 text-project">ANDROID</h6>
@@ -243,7 +248,7 @@
               <!--<a href="#" class="card-link">Another link</a>-->
             </div>
           </div>
-          <div class="card shadow" style="width: 18rem;">
+          <div class="card" id="mycardProject" style="width: 18rem;">
             <div class="card-body" id="project-card">
               <h5 class="card-title text-white">Covid Tracker App</h5>
               <h6 class="card-subtitle mb-2 text-project">ANDROID</h6>
@@ -252,7 +257,7 @@
               <!--<a href="#" class="card-link">Another link</a>-->
             </div>
           </div>
-          <div class="card shadow" style="width: 18rem;">
+          <div class="card" id="mycardProject" style="width: 18rem;">
             <div class="card-body" id="project-card">
               <h5 class="card-title text-white">Organicano</h5>
               <h6 class="card-subtitle mb-2 text-project">WEB APP</h6>
@@ -261,7 +266,7 @@
               <a href="https://cs5-sam.github.io/Organicano/" class="card-link btn btn-success" target="_blank">Visit Site</a>
             </div>
           </div>
-          <div class="card shadow" style="width: 18rem;">
+          <div class="card" id="mycardProject"style="width: 18rem;">
             <div class="card-body" id="project-card">
               <h5 class="card-title text-white">Portfolio</h5>
               <h6 class="card-subtitle mb-2 text-project">WEBSITE</h6>
@@ -307,6 +312,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <script type="text/javascript">
+    setTimeout(function(){
+        $('.loader').fadeToggle();
+    },3000);
+    </script>
 
     <script type="text/javascript">
         let progress = document.getElementById('progressbar');
